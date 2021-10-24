@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 
 if __name__ == '__main__':
     if Config.SET_MODE == Config.MODE_ANALYZE:
-        if os.path.exists('MAT_FILE_PATH'):
+        if os.path.exists(Config.MAT_FILE_PATH):
             # setting class
             AnalyzeClass = AnalyzeMatData()
             # read data
